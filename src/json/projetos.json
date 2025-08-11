@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "swipe",
+    "description": "Landing page responsiva de uma empresa fictícia de infraestrutura de pagamentos. Foco no uso avançado de pseudo-elementos, layout flexível e estilização refinada.",
+    "language": ["HTML", "CSS", "JS"],
+    "demoUrl": "https://project-swipe-brown.vercel.app/",
+    "repoUrl": ""
+  },
+  {
+    "id": 2,
+    "name": "To-Do",
+    "description": "Aplicação para adicionar, marcar e excluir tarefas. Desenvolvido com foco no uso de estados, props, manipulação de eventos e renderização condicional.",
+    "language": ["React", "Tailwind"],
+    "demoUrl": "https://curso-de-react-yt-eta.vercel.app/",
+    "repoUrl": ""
+  },
+  {
+    "id": 3,
+    "name": "Galeria Patrick Star",
+    "description": "Galeria de imagens responsiva utilizando grid layout e media queries. Projeto desenvolvido como prática de responsividade e organização visual com CSS.",
+    "language": ["HTML", "CSS"],
+    "demoUrl": "https://projeto-grid-ivory.vercel.app/",
+    "repoUrl": ""
+  },
+  {
+    "id": 4,
+    "name": "Signup Form",
+    "description": "Formulário com validação básica de campos.",
+    "language": ["HTML", "CSS", "JS"],
+    "demoUrl": "https://project-signup-form.vercel.app/",
+    "repoUrl": ""
+  }
+]

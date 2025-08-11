@@ -1,0 +1,95 @@
+.sobre {
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 40px;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.bio span {
+  color: var(--red);
+  font-weight: bold;
+}
+
+.bio strong {
+  color: var(--secundary);
+  font-weight: bold;
+}
+
+.biografia h2,
+p {
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  z-index: 10;
+}
+
+.avatar_aura {
+  width: 252px;
+  height: 251px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.techs {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.icones {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icones img {
+  width: 50px;
+}
+
+/* responsividade */
+
+/* tablet */
+
+@media (max-width: 768px) {
+  .bio {
+    flex-direction: column;
+    padding-inline: 20px;
+    gap: 1rem;
+  }
+  .bio img {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+/* mobile m */
+
+@media (max-width: 480px) {
+  .bio img {
+  }
+  .icones {
+    gap: 0.5rem;
+  }
+  .icones img {
+    height: 40px;
+  }
+}
