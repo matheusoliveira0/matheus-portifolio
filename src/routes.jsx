@@ -17,13 +17,10 @@ function AppRoutes() {
           <Route path="/projetos" element={<Projetos />}></Route>
           <Route path="/contatos" element={<Contatos />}></Route>
           <Route
-            path="https://matheusoliveira0.github.io/matheus-portifolio/"
-            element={<HiHome />}
+            path="/matheusoliveira0.github.io/matheus-portifolio/"
+            element={<Home />}
           ></Route>
-          <Route
-            path="https://matheusoliveira0.github.io/"
-            element={<HiHome />}
-          ></Route>
+          <Route path="/matheusoliveira0.github.io/" element={<Home />}></Route>
           <Route path="/matheus-portifolio" element={<Home />}></Route>
           <Route path="*" element={<Page404 />}></Route>
         </Route>

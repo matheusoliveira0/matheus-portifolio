@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
-import devImg from "../../../public/developer-red.svg";
+import devImg from "./developer-red.png"
 
 function Home() {
   return (
