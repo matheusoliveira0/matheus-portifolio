@@ -11,9 +11,7 @@ function Sobre() {
   return (
     <section className={styles.sobre}>
       <div className={styles.bio}>
-        <div className={styles.avatar_aura}>
-          <img src={avatar} alt="Avatar do usuário" className={styles.avatar} />
-        </div>
+        <img src={avatar} alt="Avatar do usuário" className={styles.avatar} />
 
         <div className={styles.biografia}>
           <h2>Sobre</h2>

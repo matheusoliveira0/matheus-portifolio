@@ -33,16 +33,6 @@ p {
 .avatar {
   width: 250px;
   height: 250px;
-  z-index: 10;
-}
-
-.avatar_aura {
-  width: 252px;
-  height: 251px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .techs {
@@ -78,6 +68,9 @@ p {
   .bio img {
     width: 40%;
     height: 40%;
+  }
+  .techs {
+    width: 80%;
   }
 }
 

@@ -11,6 +11,7 @@
 
 .home img {
   height: 400px;
+  z-index: 1;
 }
 
 .home p {
@@ -47,14 +48,15 @@
   background: var(--primary);
 }
 
-
 /*Responsividade*/
 
 @media (max-width: 768px) {
-.home {
-  flex-direction: column;
-}
-
+  .home {
+    flex-direction: column;
+  }
+  .home p {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -62,7 +64,7 @@
     font-size: 2rem;
   }
 
-  .home img {
+  .img_home {
     max-width: 100%;
     height: auto;
     padding-inline: 2.5rem;

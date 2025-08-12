@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Container from "../../components/Container";
 import styles from "./Home.module.css";
+import devImg from "../../../public/developer-red.svg";
 
 function Home() {
   return (
@@ -16,11 +16,7 @@ function Home() {
         </Link>
       </div>
       <figure>
-        <img
-          className={styles.img_home}
-          src="/developer-red.svg"
-          alt="imagem de home"
-        />
+        <img src={devImg} alt="imagem de home" className={styles.img_home} />
       </figure>
     </section>
   );
