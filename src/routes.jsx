@@ -21,6 +21,7 @@ function AppRoutes() {
             element={<Home />}
           ></Route>
           <Route path="/matheusoliveira0.github.io/" element={<Home />}></Route>
+          <Route path="/matheusoliveira0.github.io" element={<Home />}></Route>
           <Route path="/matheus-portifolio" element={<Home />}></Route>
           <Route path="*" element={<Page404 />}></Route>
         </Route>
